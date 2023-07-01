@@ -15,7 +15,7 @@ See [action.yml](action.yml) for more details.
 
 ```yaml
 steps:
-  - uses: drmendes/setup-k8s-operator-sdk@v1
+  - uses: drmendes/setup-k8s-operator-sdk@v2
     with:
       version: "^1.29.0" # The operator-sdk version to download (if necessary) and use.
 ```
