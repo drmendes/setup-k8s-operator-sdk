@@ -11,11 +11,11 @@ Just specify the version according to semver spec and you're good to go!
 
 ## Usage
 
-See [action.yml](action.yml) for more details.
+See [action.yml](action.yml) for more details..
 
 ```yaml
 steps:
-  - uses: drmendes/setup-k8s-operator-sdk@v2
+  - uses: drmendes/setup-k8s-operator-sdk@
     with:
       version: "^1.29.0" # The operator-sdk version to download (if necessary) and use.
 ```
