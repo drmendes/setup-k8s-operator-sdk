@@ -1,4 +1,4 @@
-name: "Setup operator-sdk Action"
+name: "operator-sdk for gh actions"
 description: "Setup Operator SDK and add it to the PATH"
 author: "Shivansh Saini"
 inputs:
